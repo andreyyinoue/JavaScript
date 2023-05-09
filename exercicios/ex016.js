@@ -10,7 +10,7 @@ function count() {
     res.innerHTML = ""
     if (i.value.length == 0 || f.value.length == 0 || p.value.length == 0) {
         window.alert('Dados incompletos. Preencha os dados abaixo, e tente novamente.')
-    } else if (passo == 0) {
+    } else if (passo <= 0) {
         alert('Impossível contar. Valor mínimo para o PASSO: 1')
     } else if (inicio < fim) {
         for(let c = inicio; c <= fim; c += passo) {
