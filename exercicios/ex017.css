@@ -21,7 +21,11 @@ section{
 }
 
 div{
-    font: normal 1em arial;
+    font: normal 1em arial; 
+}
+
+div#resultado{
+    text-align: center;
 }
 
 footer{
