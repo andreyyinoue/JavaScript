@@ -13,7 +13,7 @@ function count() {
     } else if (passo == 0) {
         alert('Impossível contar. Valor mínimo para o PASSO: 1')
     } else if (inicio < fim) {
-        for(let c = inicio; c <= fim; c += 1) {
+        for(let c = inicio; c <= fim; c += passo) {
             res.innerHTML += `${c} > `
         }
     } else if(inicio > fim) {
